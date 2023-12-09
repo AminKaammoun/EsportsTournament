@@ -7,9 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EsportsTour.Data;
 using EsportsTour.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace EsportsTour.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class JeuxController : Controller
     {
         private readonly EsportsDbContext _context;

@@ -4,54 +4,68 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Resultat</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            Tournoi
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Tournoi.Nom)
-        </dd>
-        <dt class="col-sm-2">
-            Date de Match
-        </dt>
-        <dd class="col-sm-10">
-            @String.Format("{0:yyyy-MM-dd}", Model.DateMatch)
-        </dd>
-        <dt class="col-sm-2">
-            Equipe Gagnante
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.EquipeGagnante.NomEquipe)
-        </dd>
-        <dt class="col-sm-2">
-            Score Gagnant
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.ScoreGagnant)
-        </dd>
-        <dt class="col-sm-2">
-            Score Perdant
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.ScorePerdant)
-        </dd>
-        <dt class="col-sm-2">
-            Equipe Perdante
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.EquipePerdante.NomEquipe)
-        </dd>
-    </dl>
 
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
-</div>
+
+<section id="shop-cart-section" class="pt-120 pb-120">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1>Delete</h1>
+
+                    <h3>Are you sure you want to delete this?</h3>
+                    <div>
+                        <h4>Resultat</h4>
+                        <hr />
+                        <div class="row">
+                            <dt class="col-sm-2" style="color: white;">
+                                Tournoi
+                            </dt>
+                            <dd class="col-sm-10" style="color: white;">
+                                @Html.DisplayFor(model => model.Tournoi.Nom)
+                            </dd>
+                            <dt class="col-sm-2" style="color: white;">
+                                Date de Match
+                            </dt>
+                            <dd class="col-sm-10" style="color: white;">
+                                @String.Format("{0:yyyy-MM-dd}", Model.DateMatch)
+                            </dd>
+                            <dt class="col-sm-2" style="color: white;">
+                                Equipe Gagnante
+                            </dt>
+                            <dd class="col-sm-10" style="color: white;">
+                                @Html.DisplayFor(model => model.EquipeGagnante.NomEquipe)
+                            </dd>
+                            <dt class="col-sm-2" style="color: white;">
+                                Score Gagnant
+                            </dt>
+                            <dd class="col-sm-10style=" style="color: white;">
+                                @Html.DisplayFor(model => model.ScoreGagnant)
+                            </dd>
+                            <dt class="col-sm-2" style="color: white;">
+                                Score Perdant
+                            </dt>
+                            <dd class="col-sm-10" style="color: white;">
+                                @Html.DisplayFor(model => model.ScorePerdant)
+                            </dd>
+                            <dt class="col-sm-2" style="color: white;">
+                                Equipe Perdante
+                            </dt>
+                            <dd class="col-sm-10" style="color: white;">
+                                @Html.DisplayFor(model => model.EquipePerdante.NomEquipe)
+                            </dd>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <input type="submit" value="Delete" style="color:white" class="cmn-btn" /> |
+                </div>
+                <a asp-action="Index">Back to List</a>
+            </form>
+        </div>
+</section>

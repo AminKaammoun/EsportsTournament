@@ -4,44 +4,67 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>La liste des joueurs</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Pseudonyme)
-            </th>
-            <th>
-Date de Naissance            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Equipe)
-            </th>
-         
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Pseudonyme)
-            </td>
-            <td>
-                    @String.Format("{0:yyyy-MM-dd}", item.DateNaissance)
-                </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Equipe.NomEquipe)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+
+<section id="shop-cart-section" class="pt-120 pb-120">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Change from col-lg-8 to col-lg-12 -->
+                    <h1>Liste des joueurs</h1>
+                    <a asp-action="Create" class="cmn-btn"> Create New</a>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Pseudonyme)
+                                    </th>
+                                    <th>
+                                        Date de Naissance
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Equipe)
+                                    </th>
+
+                                    <th>
+                                        ACTION
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+
+
+
+                                @foreach (var item in Model)
+                                {
+
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="~/images/cart-image.png" alt="image">
+                                            <span>  @Html.DisplayFor(modelItem => item.Pseudonyme)</span>
+                                        </th>
+                                        <td> @String.Format("{0:yyyy-MM-dd}", item.DateNaissance)</td>
+                                        <td>   @Html.DisplayFor(modelItem => item.Equipe.NomEquipe)</td>
+
+                                        <td>
+                                         
+                                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+</section>

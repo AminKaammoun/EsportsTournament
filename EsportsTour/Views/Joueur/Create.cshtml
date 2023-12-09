@@ -4,42 +4,51 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
 
-<h4>Joueur</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-            <div class="form-group">
-                <label asp-for="Pseudonyme" class="control-label"></label>
-                <input asp-for="Pseudonyme" class="form-control" />
-                <span asp-validation-for="Pseudonyme" class="text-danger"></span>
+
+<section id="shop-cart-section" class="pt-120 pb-120">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1>Create</h1>
+                    <h4>Joueur</h4>
+                    <hr />
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <form asp-action="Create">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                <div class="form-group">
+                                    <label asp-for="Pseudonyme" class="control-label" style="color: #ffffff;">Nom</label>
+                                    <input asp-for="Pseudonyme" class="form-control" />
+                                    <span asp-validation-for="Pseudonyme" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="DateNaissance" class="control-label" style="color: #ffffff;"></label>
+                                    <input asp-for="DateNaissance" class="form-control" />
+                                    <span asp-validation-for="DateNaissance" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="EquipeId" class="control-label" style="color:white">Equipe</label>
+                                    <select asp-for="EquipeId" class="form-control" asp-items="ViewBag.EquipeId"></select>
+                                    <span asp-validation-for="EquipeId" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Create" class="cmn-btn" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-            <div class="form-group">
-                <label asp-for="DateNaissance" class="control-label">Date de Naissance</label>
-                <input asp-for="DateNaissance" class="form-control" type="date" required />
-                <span asp-validation-for="DateNaissance" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="EquipeId" class="control-label">Equipe</label>
-                <select asp-for="EquipeId" class="form-control" asp-items="ViewBag.EquipeId"></select>
-            </div>
-
-            <!-- Remove the section for UserId since it's removed from the model -->
-
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+            <a asp-action="Index">Back to List</a>
+        </div>
+</section>
 
 @section Scripts {
     @{

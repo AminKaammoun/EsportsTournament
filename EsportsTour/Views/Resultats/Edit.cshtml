@@ -4,55 +4,64 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
 
-<h4>Resultat</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="TournoiId" class="control-label"></label>
-                <select asp-for="TournoiId" class="form-control" asp-items="ViewBag.TournoiId"></select>
-                <span asp-validation-for="TournoiId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="EquipeGagnanteId" class="control-label"></label>
-                <select asp-for="EquipeGagnanteId" class="form-control" asp-items="ViewBag.EquipeGagnanteId"></select>
-                <span asp-validation-for="EquipeGagnanteId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="EquipePerdanteId" class="control-label"></label>
-                <select asp-for="EquipePerdanteId" class="form-control" asp-items="ViewBag.EquipePerdanteId"></select>
-                <span asp-validation-for="EquipePerdanteId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ScoreGagnant" class="control-label"></label>
-                <input asp-for="ScoreGagnant" class="form-control" />
-                <span asp-validation-for="ScoreGagnant" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ScorePerdant" class="control-label"></label>
-                <input asp-for="ScorePerdant" class="form-control" />
-                <span asp-validation-for="ScorePerdant" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DateMatch" class="control-label">Date de Match</label>
-                <input asp-for="DateMatch" class="form-control" type="date" />
-                <span asp-validation-for="DateMatch" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<section id="shop-cart-section" class="pt-120 pb-120">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1>Edit</h1>
+                    <h4>Resultat</h4>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <form asp-action="Edit">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <input type="hidden" asp-for="Id" />
+                                <div class="form-group">
+                                    <label asp-for="TournoiId" class="control-label"></label>
+                                    <select asp-for="TournoiId" class="form-control" asp-items="ViewBag.TournoiId"></select>
+
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="EquipeGagnanteId" class="control-label" style="color:white;"></label>
+                                    <select asp-for="EquipeGagnanteId" class="form-control" asp-items="ViewBag.EquipeGagnanteId"></select>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="EquipePerdanteId" class="control-label" style="color:white;"></label>
+                                    <select asp-for="EquipePerdanteId" class="form-control" asp-items="ViewBag.EquipePerdanteId"></select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="ScoreGagnant" class="control-label" style="color:white;"></label>
+                                    <input asp-for="ScoreGagnant" class="form-control" />
+                                    <span asp-validation-for="ScoreGagnant" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="ScorePerdant" class="control-label" style="color:white;"></label>
+                                    <input asp-for="ScorePerdant" class="form-control" />
+                                    <span asp-validation-for="ScorePerdant" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="DateMatch" class="control-label" style="color:white;">Date de Match</label>
+                                    <input asp-for="DateMatch" class="form-control" type="date" required />
+                                    <span asp-validation-for="DateMatch" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Save" style="color:white" class="cmn-btn" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <a asp-action="Index">Back to List</a>
+        </div>
+</section>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

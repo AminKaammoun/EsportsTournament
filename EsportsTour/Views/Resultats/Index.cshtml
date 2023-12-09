@@ -4,70 +4,89 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Les Résultats</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Tournoi)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateMatch)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EquipeGagnante)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ScoreGagnant)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ScorePerdant)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EquipePerdante)
-            </th>
-           
-           
-         
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Tournoi.Nom)
-                </td>
-                <td>
-                    @String.Format("{0:yyyy-MM-dd}", item.DateMatch)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.EquipeGagnante.NomEquipe)
-                </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ScoreGagnant)
-            </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ScorePerdant)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.EquipePerdante.NomEquipe)
-                </td>
-          
-           
-          
-         
-           
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+
+<section id="shop-cart-section" class="pt-120 pb-120">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Change from col-lg-8 to col-lg-12 -->
+                    <h1>Liste des Resultats</h1>
+                    <a asp-action="Create" class="cmn-btn"> Create New</a>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Tournoi)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.DateMatch)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.EquipeGagnante)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.ScoreGagnant)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.ScorePerdant)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.EquipePerdante)
+                                    </th>
+
+
+                                    <th>
+                                        ACTION
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+
+
+
+                                @foreach (var item in Model)
+                                {
+
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="~/images/cart-image.png" alt="image">
+                                            <span>    @Html.DisplayFor(modelItem => item.Tournoi.Nom)</span>
+                                        </th>
+                                        <td>  @String.Format("{0:yyyy-MM-dd}", item.DateMatch)</td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.EquipeGagnante.NomEquipe)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.ScoreGagnant)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.ScorePerdant)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.EquipePerdante.NomEquipe)
+                                        </td>
+
+
+                                        <td>
+                                          
+                                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+</section>

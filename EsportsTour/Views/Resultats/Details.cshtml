@@ -4,51 +4,59 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
 
-<div>
-    <h4>Resultat</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            Tournoi
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Tournoi.Nom)
-        </dd>
-        <dt class="col-sm-2">
-            Date de Match
-        </dt>
-        <dd class="col-sm-10">
-            @String.Format("{0:yyyy-MM-dd}", Model.DateMatch)
-        </dd>
-        <dt class="col-sm-2">
-            Equipe Gagnante
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.EquipeGagnante.NomEquipe)
-        </dd>
-        <dt class="col-sm-2">
-            Score Gagnant
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.ScoreGagnant)
-        </dd>
-        <dt class="col-sm-2">
-            Score Perdant
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.ScorePerdant)
-        </dd>
-        <dt class="col-sm-2">
-            Equipe Perdante
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.EquipePerdante.NomEquipe)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<section id="shop-cart-section" class="pt-120 pb-120">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 style="color: white;">Details</h1>
+                    <h4 style="color: white;">Resultats</h4>
+                    <hr style="color: white;" />
+                    <br />
+                    <div class="row">
+                        <dt class="col-sm-2" style="color: white;">
+                            Tournoi
+                        </dt>
+                        <dd class="col-sm-10" style="color: white;">
+                            @Html.DisplayFor(model => model.Tournoi.Nom)
+                        </dd>
+                        <dt class="col-sm-2" style="color: white;">
+                            Date de Match
+                        </dt>
+                        <dd class="col-sm-10" style="color: white;">
+                            @String.Format("{0:yyyy-MM-dd}", Model.DateMatch)
+                        </dd>
+                        <dt class="col-sm-2" style="color: white;">
+                            Equipe Gagnante
+                        </dt>
+                        <dd class="col-sm-10" style="color: white;">
+                            @Html.DisplayFor(model => model.EquipeGagnante.NomEquipe)
+                        </dd>
+                        <dt class="col-sm-2" style="color: white;">
+                            Score Gagnant
+                        </dt>
+                        <dd class="col-sm-10style=" style="color: white;" >
+                            @Html.DisplayFor(model => model.ScoreGagnant)
+                        </dd>
+                        <dt class="col-sm-2" style="color: white;">
+                            Score Perdant
+                        </dt>
+                        <dd class="col-sm-10" style="color: white;">
+                            @Html.DisplayFor(model => model.ScorePerdant)
+                        </dd>
+                        <dt class="col-sm-2" style="color: white;">
+                            Equipe Perdante
+                        </dt>
+                        <dd class="col-sm-10" style="color: white;">
+                            @Html.DisplayFor(model => model.EquipePerdante.NomEquipe)
+                        </dd>
+                    </div>
+                </div>
+            </div>
+            <a asp-action="Edit" asp-route-id="@Model?.Id" style="color: white;">Edit</a> |
+            <a asp-action="Index" style="color: white;">Back to List</a>
+        </div>
+    </div>
+</section>

@@ -4,39 +4,51 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
 
-<h4>Jeux</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="NomJeu" class="control-label"></label>
-                <input asp-for="NomJeu" class="form-control" />
-                <span asp-validation-for="NomJeu" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Categorie" class="control-label"></label>
-                <input asp-for="Categorie" class="form-control" />
-                <span asp-validation-for="Categorie" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ImgJeu" class="control-label"></label>
-                <input asp-for="ImgJeu" class="form-control" />
-                <span asp-validation-for="ImgJeu" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<section id="shop-cart-section" class="pt-120 pb-120">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1>Create</h1>
+                    <h4>Jeux</h4>
+                    <hr />
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <form asp-action="Create">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                               
+                                <div class="form-group">
+                                    <label asp-for="NomJeu" class="control-label" style="color: #ffffff;">Nom</label>
+                                    <input asp-for="NomJeu" class="form-control" />
+                                    <span asp-validation-for="NomJeu" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Categorie" class="control-label" style="color: #ffffff;"></label>
+                                    <input asp-for="Categorie" class="form-control" />
+                                    <span asp-validation-for="Categorie" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="ImgJeu" class="control-label" style="color: #ffffff;">Image</label>
+                                    <input asp-for="ImgJeu" class="form-control" />
+                                    <span asp-validation-for="ImgJeu" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Create" class="cmn-btn" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <a asp-action="Index">Back to List</a>
+        </div>
+</section>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
