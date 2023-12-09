@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Les Résultats</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -13,10 +13,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ScoreGagnant)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ScorePerdant)
+                @Html.DisplayNameFor(model => model.Tournoi)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.DateMatch)
@@ -25,35 +22,46 @@
                 @Html.DisplayNameFor(model => model.EquipeGagnante)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.EquipePerdante)
+                @Html.DisplayNameFor(model => model.ScoreGagnant)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Tournoi)
+                @Html.DisplayNameFor(model => model.ScorePerdant)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EquipePerdante)
+            </th>
+           
+           
+         
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tournoi.Nom)
+                </td>
+                <td>
+                    @String.Format("{0:yyyy-MM-dd}", item.DateMatch)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EquipeGagnante.NomEquipe)
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ScoreGagnant)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ScorePerdant)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateMatch)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EquipeGagnante.Id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EquipePerdante.Id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Tournoi.Id)
-            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ScorePerdant)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EquipePerdante.NomEquipe)
+                </td>
+          
+           
+          
+         
+           
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |

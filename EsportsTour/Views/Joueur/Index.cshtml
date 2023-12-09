@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>La liste des joueurs</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -16,8 +16,7 @@
                 @Html.DisplayNameFor(model => model.Pseudonyme)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DateNaissance)
-            </th>
+Date de Naissance            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Equipe)
             </th>
@@ -32,8 +31,8 @@
                 @Html.DisplayFor(modelItem => item.Pseudonyme)
             </td>
             <td>
-                    @Html.DisplayFor(modelItem => item.DateNaissance)
-            </td>
+                    @String.Format("{0:yyyy-MM-dd}", item.DateNaissance)
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Equipe.NomEquipe)
             </td>

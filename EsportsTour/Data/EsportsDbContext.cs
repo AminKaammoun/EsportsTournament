@@ -19,7 +19,10 @@ namespace EsportsTour.Data
 
         public virtual DbSet<Tournoi> Tournois { get; set; }
 
-     
+        public virtual DbSet<Jeux> Jeux { get; set; }
+
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

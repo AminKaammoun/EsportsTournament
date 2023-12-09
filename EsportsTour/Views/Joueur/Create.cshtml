@@ -19,12 +19,12 @@
                 <span asp-validation-for="Pseudonyme" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DateNaissance" class="control-label"></label>
-                <input asp-for="DateNaissance" class="form-control" type="date" />
+                <label asp-for="DateNaissance" class="control-label">Date de Naissance</label>
+                <input asp-for="DateNaissance" class="form-control" type="date" required />
                 <span asp-validation-for="DateNaissance" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="EquipeId" class="control-label"></label>
+                <label asp-for="EquipeId" class="control-label">Equipe</label>
                 <select asp-for="EquipeId" class="form-control" asp-items="ViewBag.EquipeId"></select>
             </div>
 

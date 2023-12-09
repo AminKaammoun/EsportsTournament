@@ -104,23 +104,36 @@ namespace Projet.Net.Controllers
         // POST: Joueur/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("JoueurId,Pseudonyme,DateNaissance")] Joueur joueur)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Pseudonyme,DateNaissance,EquipeId")] Joueur joueur)
         {
             if (id != joueur.Id)
             {
                 return NotFound();
             }
 
+            // Retrieve the existing player including its Equipe
+            var existingJoueur = await _context.Joueurs.Include(j => j.Equipe).FirstOrDefaultAsync(m => m.Id == id);
+            if (existingJoueur == null)
+            {
+                return NotFound();
+            }
+
+            // Update the properties of the existing player
+            existingJoueur.Pseudonyme = joueur.Pseudonyme;
+            existingJoueur.DateNaissance = joueur.DateNaissance;
+            existingJoueur.EquipeId = joueur.EquipeId;
+
+
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _context.Update(joueur);
+                    _context.Update(existingJoueur);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!JoueurExists(joueur.Id))
+                    if (!JoueurExists(existingJoueur.Id))
                     {
                         return NotFound();
                     }
@@ -133,8 +146,8 @@ namespace Projet.Net.Controllers
             }
 
             // Use EquipeName instead of EquipeId for SelectList
-            ViewData["EquipeId"] = new SelectList(_context.Equipes, "Id", "NomEquipe", joueur.EquipeId);
-            return View(joueur);
+            ViewData["EquipeId"] = new SelectList(_context.Equipes, "Id", "NomEquipe", existingJoueur.EquipeId);
+            return View(existingJoueur);
         }
 
         // GET: Joueur/Delete/5

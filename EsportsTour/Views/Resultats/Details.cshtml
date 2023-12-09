@@ -10,41 +10,41 @@
     <h4>Resultat</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ScoreGagnant)
+        <dt class="col-sm-2">
+            Tournoi
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Tournoi.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            Date de Match
+        </dt>
+        <dd class="col-sm-10">
+            @String.Format("{0:yyyy-MM-dd}", Model.DateMatch)
+        </dd>
+        <dt class="col-sm-2">
+            Equipe Gagnante
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EquipeGagnante.NomEquipe)
+        </dd>
+        <dt class="col-sm-2">
+            Score Gagnant
+        </dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.ScoreGagnant)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ScorePerdant)
+        <dt class="col-sm-2">
+            Score Perdant
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.ScorePerdant)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DateMatch)
+        <dt class="col-sm-2">
+            Equipe Perdante
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DateMatch)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EquipeGagnante)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EquipeGagnante.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EquipePerdante)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EquipePerdante.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Tournoi)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Tournoi.Id)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EquipePerdante.NomEquipe)
         </dd>
     </dl>
 </div>
