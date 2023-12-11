@@ -9,6 +9,7 @@ using EsportsTour.Data;
 using EsportsTour.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Data;
+using Projet.Net.Models;
 
 namespace EsportsTour.Controllers
 {
@@ -63,6 +64,11 @@ namespace EsportsTour.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (_context.Jeux.Any(e => e.NomJeu == jeux.NomJeu))
+                {
+                    ModelState.AddModelError("NomJeu", "A game with this name already exists.");
+                    return View(jeux);
+                }
                 _context.Add(jeux);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

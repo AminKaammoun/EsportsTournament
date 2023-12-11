@@ -4,8 +4,6 @@
     ViewData["Title"] = "Index";
 }
 
-
-
 <section id="shop-cart-section" class="pt-120 pb-120">
     <div class="overlay">
         <div class="container">
@@ -23,10 +21,10 @@
                                         @Html.DisplayNameFor(model => model.Nom)
                                     </th>
                                     <th>
-                                        @Html.DisplayNameFor(model => model.Descr)
+                                        Description
                                     </th>
                                     <th>
-                                        @Html.DisplayNameFor(model => model.Jeu)
+                                        @Html.DisplayNameFor(model => model.Jeux)
                                     </th>
                                     <th>
                                         @Html.DisplayNameFor(model => model.DateDebut)
@@ -34,40 +32,32 @@
                                     <th>
                                         @Html.DisplayNameFor(model => model.DateFin)
                                     </th>
-
                                     <th>
                                         ACTION
                                     </th>
-
                                 </tr>
                             </thead>
                             <tbody>
-
-
-
                                 @foreach (var item in Model)
                                 {
-
                                     <tr>
                                         <th scope="row">
                                             <img src="~/images/cart-image.png" alt="image">
-                                            <span>       @Html.DisplayFor(modelItem => item.Nom)</span>
+                                            <span>@Html.DisplayFor(modelItem => item.Nom)</span>
                                         </th>
                                         <td>
                                             @Html.DisplayFor(modelItem => item.Descr)
                                         </td>
                                         <td>
-                                            @Html.DisplayFor(modelItem => item.Jeu)
+                                            @Html.DisplayFor(model => item.Jeux.NomJeu)
                                         </td>
                                         <td>
-                                            @Html.DisplayFor(modelItem => item.DateDebut)
+                                            @String.Format("{0:yyyy-MM-dd}", item.DateDebut)
                                         </td>
                                         <td>
-                                            @Html.DisplayFor(modelItem => item.DateFin)
+                                            @String.Format("{0:yyyy-MM-dd}", item.DateFin)
                                         </td>
-                                     
                                         <td>
-
                                             <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                                             <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                                             <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
@@ -77,9 +67,8 @@
                             </tbody>
                         </table>
                     </div>
-
                 </div>
-
             </div>
         </div>
+    </div>
 </section>

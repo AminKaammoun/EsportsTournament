@@ -75,10 +75,10 @@ namespace EsportsTour.Data
                 entity.Property(e => e.DateDebut).HasColumnType("date");
                 entity.Property(e => e.DateFin).HasColumnType("date");
                 entity.Property(e => e.Descr).HasMaxLength(255);
-                entity.Property(e => e.Jeu)
-                    .HasMaxLength(255)
-                    .HasColumnName("jeu");
-                entity.Property(e => e.Nom).HasMaxLength(255);
+                entity.HasOne(d => d.Jeux)
+                    .WithMany(p => p.Tournois)
+                    .HasForeignKey(d => d.JeuId)
+                    .HasConstraintName("FK__Tournois__JeuId__3B75D760");
             });
 
             OnModelCreatingPartial(modelBuilder);

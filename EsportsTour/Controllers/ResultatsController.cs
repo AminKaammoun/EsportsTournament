@@ -102,9 +102,16 @@ namespace Projet.Net.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("TournoiId,EquipeGagnanteId,EquipePerdanteId,ScoreGagnant,ScorePerdant,DateMatch")] Resultat resultat)
+        public async Task<IActionResult> Edit(int? id, [Bind("Id,TournoiId,EquipeGagnanteId,EquipePerdanteId,ScoreGagnant,ScorePerdant,DateMatch")] Resultat resultat)
         {
-            if (id != resultat.Id)
+            if (id == null || resultat.Id != id)
+            {
+                return NotFound();
+            }
+
+            var existingResultat = await _context.Resultats.FindAsync(id);
+
+            if (existingResultat == null)
             {
                 return NotFound();
             }
@@ -113,7 +120,10 @@ namespace Projet.Net.Controllers
             {
                 try
                 {
-                    _context.Update(resultat);
+                    // Update the existing Resultat with the properties of the incoming resultat
+                    _context.Entry(existingResultat).CurrentValues.SetValues(resultat);
+
+                    // Save changes to the database
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -129,6 +139,8 @@ namespace Projet.Net.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+
+            // If ModelState is not valid, set up ViewData for the dropdowns and return to the view
             ViewData["EquipeGagnanteId"] = new SelectList(_context.Equipes, "Id", "NomEquipe", resultat.EquipeGagnanteId);
             ViewData["EquipePerdanteId"] = new SelectList(_context.Equipes, "Id", "NomEquipe", resultat.EquipePerdanteId);
             ViewData["TournoiId"] = new SelectList(_context.Tournois, "Id", "Nom", resultat.TournoiId);

@@ -4,6 +4,7 @@ using EsportsTour.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EsportsTour.Migrations
 {
     [DbContext(typeof(EsportsDbContext))]
-    partial class EsportsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231210130619_tournois_foreign_key_jeu")]
+    partial class tournois_foreign_key_jeu
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -316,17 +319,27 @@ namespace EsportsTour.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<string>("Jeu")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)")
+                        .HasColumnName("jeu");
+
                     b.Property<int?>("JeuId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("JeuxId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nom")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.HasKey("Id")
                         .HasName("PK__Tournois__6536E3D9E8BDE8DD");
 
-                    b.HasIndex("JeuId");
+                    b.HasIndex("JeuxId");
 
                     b.ToTable("Tournois");
                 });
@@ -368,16 +381,10 @@ namespace EsportsTour.Migrations
             modelBuilder.Entity("Projet.Net.Models.Tournoi", b =>
                 {
                     b.HasOne("EsportsTour.Models.Jeux", "Jeux")
-                        .WithMany("Tournois")
-                        .HasForeignKey("JeuId")
-                        .HasConstraintName("FK__Tournois__JeuId__3B75D760");
+                        .WithMany()
+                        .HasForeignKey("JeuxId");
 
                     b.Navigation("Jeux");
-                });
-
-            modelBuilder.Entity("EsportsTour.Models.Jeux", b =>
-                {
-                    b.Navigation("Tournois");
                 });
 
             modelBuilder.Entity("Projet.Net.Models.Equipe", b =>

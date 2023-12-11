@@ -26,23 +26,26 @@
                                     <span asp-validation-for="Nom" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="Descr" class="control-label" style="color:white;"></label>
+                                    <label asp-for="Descr" class="control-label" style="color:white;">Description De Tournoi</label>
                                     <input asp-for="Descr" class="form-control" />
                                     <span asp-validation-for="Descr" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="Jeu" class="control-label" style="color:white;"></label>
-                                    <input asp-for="Jeu" class="form-control" />
-                                    <span asp-validation-for="Jeu" class="text-danger"></span>
+                                    <label asp-for="JeuId" class="control-label" style="color:white;">Select Jeu</label>
+                                    <select asp-for="JeuId" class="form-control" asp-items="ViewBag.JeuId"></select>
+                                    <span asp-validation-for="JeuId" class="text-danger"></span>
+
                                 </div>
+                  
+
                                 <div class="form-group">
-                                    <label asp-for="DateDebut" class="control-label" style="color:white;"></label>
-                                    <input asp-for="DateDebut" class="form-control" />
+                                    <label asp-for="DateDebut" class="control-label" style="color:white;">Date Debut De Tournoi</label>
+                                    <input asp-for="DateDebut" class="form-control" type="date" required />
                                     <span asp-validation-for="DateDebut" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="DateFin" class="control-label" style="color:white;"></label>
-                                    <input asp-for="DateFin" class="form-control" />
+                                    <label asp-for="DateFin" class="control-label" style="color:white;">Date Fin De Tournoi</label>
+                                    <input asp-for="DateFin" class="form-control" type="date" required />
                                     <span asp-validation-for="DateFin" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">

@@ -1,1123 +1,1123 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EsportsTour.bundle.scp.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EsportsTour.bundle.scp.css",
       "PackagePath": "staticwebassets\\EsportsTour.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\animate.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\fontawesome.min.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\fontawesome.min.css",
       "PackagePath": "staticwebassets\\css\\fontawesome.min.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\magnific-popup.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\css\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\nice-select.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\nice-select.css",
       "PackagePath": "staticwebassets\\css\\nice-select.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\owl.carousel.min.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\owl.theme.default.min.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\owl.video.play.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\owl.video.play.html",
       "PackagePath": "staticwebassets\\css\\owl.video.play.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\slick.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\slick.css",
       "PackagePath": "staticwebassets\\css\\slick.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\xzoom.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\css\\xzoom.css",
       "PackagePath": "staticwebassets\\css\\xzoom.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-brands-400.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-brands-400.html",
       "PackagePath": "staticwebassets\\fonts\\fa-brands-400.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-brands-400d41d.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-brands-400d41d.html",
       "PackagePath": "staticwebassets\\fonts\\fa-brands-400d41d.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-brands-401.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-brands-401.html",
       "PackagePath": "staticwebassets\\fonts\\fa-brands-401.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-brands-402.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-brands-402.html",
       "PackagePath": "staticwebassets\\fonts\\fa-brands-402.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-brands-403.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-brands-403.html",
       "PackagePath": "staticwebassets\\fonts\\fa-brands-403.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-regular-400.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-regular-400.html",
       "PackagePath": "staticwebassets\\fonts\\fa-regular-400.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-regular-400d41d.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-regular-400d41d.html",
       "PackagePath": "staticwebassets\\fonts\\fa-regular-400d41d.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-regular-401.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-regular-401.html",
       "PackagePath": "staticwebassets\\fonts\\fa-regular-401.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-regular-402.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-regular-402.html",
       "PackagePath": "staticwebassets\\fonts\\fa-regular-402.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-regular-403.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-regular-403.html",
       "PackagePath": "staticwebassets\\fonts\\fa-regular-403.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-solid-900.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-solid-900.html",
       "PackagePath": "staticwebassets\\fonts\\fa-solid-900.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-solid-900d41d.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-solid-900d41d.html",
       "PackagePath": "staticwebassets\\fonts\\fa-solid-900d41d.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-solid-901.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-solid-901.html",
       "PackagePath": "staticwebassets\\fonts\\fa-solid-901.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-solid-902.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-solid-902.html",
       "PackagePath": "staticwebassets\\fonts\\fa-solid-902.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-solid-903.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\fonts\\fa-solid-903.html",
       "PackagePath": "staticwebassets\\fonts\\fa-solid-903.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\01.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\01.png",
       "PackagePath": "staticwebassets\\images\\01.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\02.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\02.png",
       "PackagePath": "staticwebassets\\images\\02.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\03.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\03.png",
       "PackagePath": "staticwebassets\\images\\03.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\04.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\04.png",
       "PackagePath": "staticwebassets\\images\\04.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\404.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\404.png",
       "PackagePath": "staticwebassets\\images\\404.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\about-bg-overlay.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\about-bg-overlay.png",
       "PackagePath": "staticwebassets\\images\\about-bg-overlay.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\about-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\about-bg.png",
       "PackagePath": "staticwebassets\\images\\about-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\about-us-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\about-us-bg.png",
       "PackagePath": "staticwebassets\\images\\about-us-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\admin-img-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\admin-img-1.png",
       "PackagePath": "staticwebassets\\images\\admin-img-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\admin-img-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\admin-img-2.png",
       "PackagePath": "staticwebassets\\images\\admin-img-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\admin-img-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\admin-img-3.png",
       "PackagePath": "staticwebassets\\images\\admin-img-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\banner-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\banner-bg.png",
       "PackagePath": "staticwebassets\\images\\banner-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\banner-circle-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\banner-circle-1.png",
       "PackagePath": "staticwebassets\\images\\banner-circle-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\banner-circle-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\banner-circle-2.png",
       "PackagePath": "staticwebassets\\images\\banner-circle-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\bitcoin.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\bitcoin.png",
       "PackagePath": "staticwebassets\\images\\bitcoin.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\bracket-line-2.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\bracket-line-2.html",
       "PackagePath": "staticwebassets\\images\\bracket-line-2.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\bracket-line.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\bracket-line.html",
       "PackagePath": "staticwebassets\\images\\bracket-line.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\call-to-action-left.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\call-to-action-left.png",
       "PackagePath": "staticwebassets\\images\\call-to-action-left.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\call-to-action-right.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\call-to-action-right.png",
       "PackagePath": "staticwebassets\\images\\call-to-action-right.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\cart-image.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\cart-image.png",
       "PackagePath": "staticwebassets\\images\\cart-image.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\character.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\character.png",
       "PackagePath": "staticwebassets\\images\\character.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\character_01.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\character_01.png",
       "PackagePath": "staticwebassets\\images\\character_01.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\character_02.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\character_02.png",
       "PackagePath": "staticwebassets\\images\\character_02.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\check-icon.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\check-icon.png",
       "PackagePath": "staticwebassets\\images\\check-icon.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\clime-rank.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\clime-rank.png",
       "PackagePath": "staticwebassets\\images\\clime-rank.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\coin-icon.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\coin-icon.png",
       "PackagePath": "staticwebassets\\images\\coin-icon.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\counter-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\counter-bg.png",
       "PackagePath": "staticwebassets\\images\\counter-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\counter-icon-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\counter-icon-1.png",
       "PackagePath": "staticwebassets\\images\\counter-icon-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\counter-icon-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\counter-icon-2.png",
       "PackagePath": "staticwebassets\\images\\counter-icon-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\counter-icon-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\counter-icon-3.png",
       "PackagePath": "staticwebassets\\images\\counter-icon-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\counter-icon-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\counter-icon-4.png",
       "PackagePath": "staticwebassets\\images\\counter-icon-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\credit-icon.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\credit-icon.png",
       "PackagePath": "staticwebassets\\images\\credit-icon.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\deal-content.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\deal-content.png",
       "PackagePath": "staticwebassets\\images\\deal-content.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\deal-of-day-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\deal-of-day-bg.png",
       "PackagePath": "staticwebassets\\images\\deal-of-day-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\dhl.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\dhl.png",
       "PackagePath": "staticwebassets\\images\\dhl.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\down-arrow.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\down-arrow.png",
       "PackagePath": "staticwebassets\\images\\down-arrow.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\earnings-icon-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\earnings-icon-1.png",
       "PackagePath": "staticwebassets\\images\\earnings-icon-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\earnings-icon-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\earnings-icon-2.png",
       "PackagePath": "staticwebassets\\images\\earnings-icon-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\earnings-icon-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\earnings-icon-3.png",
       "PackagePath": "staticwebassets\\images\\earnings-icon-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\email-icon.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\email-icon.png",
       "PackagePath": "staticwebassets\\images\\email-icon.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\esports-matches.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\esports-matches.png",
       "PackagePath": "staticwebassets\\images\\esports-matches.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\fav.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\fav.html",
       "PackagePath": "staticwebassets\\images\\fav.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\featured-products-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\featured-products-1.png",
       "PackagePath": "staticwebassets\\images\\featured-products-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\featured-products-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\featured-products-2.png",
       "PackagePath": "staticwebassets\\images\\featured-products-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\featured-products-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\featured-products-3.png",
       "PackagePath": "staticwebassets\\images\\featured-products-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-banner-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-banner-bg.png",
       "PackagePath": "staticwebassets\\images\\features-banner-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-bg.png",
       "PackagePath": "staticwebassets\\images\\features-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-icon-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-icon-1.png",
       "PackagePath": "staticwebassets\\images\\features-icon-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-icon-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-icon-2.png",
       "PackagePath": "staticwebassets\\images\\features-icon-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-icon-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-icon-3.png",
       "PackagePath": "staticwebassets\\images\\features-icon-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-icon-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-icon-4.png",
       "PackagePath": "staticwebassets\\images\\features-icon-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-icon-5.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-icon-5.png",
       "PackagePath": "staticwebassets\\images\\features-icon-5.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-icon-6.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-icon-6.png",
       "PackagePath": "staticwebassets\\images\\features-icon-6.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-video-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\features-video-bg.png",
       "PackagePath": "staticwebassets\\images\\features-video-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\fedex.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\fedex.png",
       "PackagePath": "staticwebassets\\images\\fedex.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\footer-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\footer-bg.png",
       "PackagePath": "staticwebassets\\images\\footer-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\footer-top-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\footer-top-bg.png",
       "PackagePath": "staticwebassets\\images\\footer-top-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\format-icon-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\format-icon-1.png",
       "PackagePath": "staticwebassets\\images\\format-icon-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\format-icon-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\format-icon-2.png",
       "PackagePath": "staticwebassets\\images\\format-icon-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\format-icon-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\format-icon-3.png",
       "PackagePath": "staticwebassets\\images\\format-icon-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\format-icon-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\format-icon-4.png",
       "PackagePath": "staticwebassets\\images\\format-icon-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\format-icon-5.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\format-icon-5.png",
       "PackagePath": "staticwebassets\\images\\format-icon-5.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\format-icon-6.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\format-icon-6.png",
       "PackagePath": "staticwebassets\\images\\format-icon-6.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-1.png",
       "PackagePath": "staticwebassets\\images\\game-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-2.png",
       "PackagePath": "staticwebassets\\images\\game-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-3.png",
       "PackagePath": "staticwebassets\\images\\game-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-4.png",
       "PackagePath": "staticwebassets\\images\\game-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-img-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-img-1.png",
       "PackagePath": "staticwebassets\\images\\game-img-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-img-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-img-2.png",
       "PackagePath": "staticwebassets\\images\\game-img-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-img-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-img-3.png",
       "PackagePath": "staticwebassets\\images\\game-img-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-img-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-img-4.png",
       "PackagePath": "staticwebassets\\images\\game-img-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-img-5.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-img-5.png",
       "PackagePath": "staticwebassets\\images\\game-img-5.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-left.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\game-left.png",
       "PackagePath": "staticwebassets\\images\\game-left.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\how-icon-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\how-icon-1.png",
       "PackagePath": "staticwebassets\\images\\how-icon-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\how-icon-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\how-icon-2.png",
       "PackagePath": "staticwebassets\\images\\how-icon-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\how-icon-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\how-icon-3.png",
       "PackagePath": "staticwebassets\\images\\how-icon-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\how-icon-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\how-icon-4.png",
       "PackagePath": "staticwebassets\\images\\how-icon-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\how-works-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\how-works-bg.png",
       "PackagePath": "staticwebassets\\images\\how-works-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\inner-banner-bg.html",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\inner-banner-bg.html",
       "PackagePath": "staticwebassets\\images\\inner-banner-bg.html"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\left-arrow.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\left-arrow.png",
       "PackagePath": "staticwebassets\\images\\left-arrow.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\left-banner.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\left-banner.png",
       "PackagePath": "staticwebassets\\images\\left-banner.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\left-icon.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\left-icon.png",
       "PackagePath": "staticwebassets\\images\\left-icon.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\line-one.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\line-one.png",
       "PackagePath": "staticwebassets\\images\\line-one.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\line-two.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\line-two.png",
       "PackagePath": "staticwebassets\\images\\line-two.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\login-reg-cover.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\login-reg-cover.png",
       "PackagePath": "staticwebassets\\images\\login-reg-cover.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\logo.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\magnific-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\magnific-bg.png",
       "PackagePath": "staticwebassets\\images\\magnific-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\mastercard.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\mastercard.png",
       "PackagePath": "staticwebassets\\images\\mastercard.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\my-statistics-icon-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\my-statistics-icon-1.png",
       "PackagePath": "staticwebassets\\images\\my-statistics-icon-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\my-statistics-icon-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\my-statistics-icon-2.png",
       "PackagePath": "staticwebassets\\images\\my-statistics-icon-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\my-statistics-icon-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\my-statistics-icon-3.png",
       "PackagePath": "staticwebassets\\images\\my-statistics-icon-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\my-statistics-icon-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\my-statistics-icon-4.png",
       "PackagePath": "staticwebassets\\images\\my-statistics-icon-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\my-statistics-icon-5.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\my-statistics-icon-5.png",
       "PackagePath": "staticwebassets\\images\\my-statistics-icon-5.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-1.png",
       "PackagePath": "staticwebassets\\images\\participant-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-10.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-10.png",
       "PackagePath": "staticwebassets\\images\\participant-10.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-2.png",
       "PackagePath": "staticwebassets\\images\\participant-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-3.png",
       "PackagePath": "staticwebassets\\images\\participant-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-4.png",
       "PackagePath": "staticwebassets\\images\\participant-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-5.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-5.png",
       "PackagePath": "staticwebassets\\images\\participant-5.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-6.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-6.png",
       "PackagePath": "staticwebassets\\images\\participant-6.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-7.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-7.png",
       "PackagePath": "staticwebassets\\images\\participant-7.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-8.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-8.png",
       "PackagePath": "staticwebassets\\images\\participant-8.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-9.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participant-9.png",
       "PackagePath": "staticwebassets\\images\\participant-9.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participants-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participants-1.png",
       "PackagePath": "staticwebassets\\images\\participants-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participants-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participants-2.png",
       "PackagePath": "staticwebassets\\images\\participants-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participants-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participants-3.png",
       "PackagePath": "staticwebassets\\images\\participants-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participants-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participants-4.png",
       "PackagePath": "staticwebassets\\images\\participants-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participants-5.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\participants-5.png",
       "PackagePath": "staticwebassets\\images\\participants-5.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\paypal.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\paypal.png",
       "PackagePath": "staticwebassets\\images\\paypal.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\phone-icon.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\phone-icon.png",
       "PackagePath": "staticwebassets\\images\\phone-icon.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\play-icon-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\play-icon-2.png",
       "PackagePath": "staticwebassets\\images\\play-icon-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\play-icon.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\play-icon.png",
       "PackagePath": "staticwebassets\\images\\play-icon.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\player-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\player-1.png",
       "PackagePath": "staticwebassets\\images\\player-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\player-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\player-2.png",
       "PackagePath": "staticwebassets\\images\\player-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\player-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\player-3.png",
       "PackagePath": "staticwebassets\\images\\player-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\players-circle.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\players-circle.png",
       "PackagePath": "staticwebassets\\images\\players-circle.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\players-week-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\players-week-bg.png",
       "PackagePath": "staticwebassets\\images\\players-week-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\policy-icon-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\policy-icon-1.png",
       "PackagePath": "staticwebassets\\images\\policy-icon-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\policy-icon-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\policy-icon-2.png",
       "PackagePath": "staticwebassets\\images\\policy-icon-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\policy-icon-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\policy-icon-3.png",
       "PackagePath": "staticwebassets\\images\\policy-icon-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\policy-icon-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\policy-icon-4.png",
       "PackagePath": "staticwebassets\\images\\policy-icon-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\preloader.gif",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\preloader.gif",
       "PackagePath": "staticwebassets\\images\\preloader.gif"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\price-coin.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\price-coin.png",
       "PackagePath": "staticwebassets\\images\\price-coin.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\profile-info.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\profile-info.png",
       "PackagePath": "staticwebassets\\images\\profile-info.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\profile-logo.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\profile-logo.png",
       "PackagePath": "staticwebassets\\images\\profile-logo.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\reply-icon.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\reply-icon.png",
       "PackagePath": "staticwebassets\\images\\reply-icon.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\result-img-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\result-img-1.png",
       "PackagePath": "staticwebassets\\images\\result-img-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\result-img-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\result-img-2.png",
       "PackagePath": "staticwebassets\\images\\result-img-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\result-img-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\result-img-3.png",
       "PackagePath": "staticwebassets\\images\\result-img-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\right-arrow.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\right-arrow.png",
       "PackagePath": "staticwebassets\\images\\right-arrow.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\right-arrows.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\right-arrows.png",
       "PackagePath": "staticwebassets\\images\\right-arrows.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\right-banner.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\right-banner.png",
       "PackagePath": "staticwebassets\\images\\right-banner.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\right-icon.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\right-icon.png",
       "PackagePath": "staticwebassets\\images\\right-icon.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\search_btn.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\search_btn.png",
       "PackagePath": "staticwebassets\\images\\search_btn.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\single-right.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\single-right.png",
       "PackagePath": "staticwebassets\\images\\single-right.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\social-icon-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\social-icon-1.png",
       "PackagePath": "staticwebassets\\images\\social-icon-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\social-icon-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\social-icon-2.png",
       "PackagePath": "staticwebassets\\images\\social-icon-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\social-icon-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\social-icon-3.png",
       "PackagePath": "staticwebassets\\images\\social-icon-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\splash1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\splash1.png",
       "PackagePath": "staticwebassets\\images\\splash1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\splash2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\splash2.png",
       "PackagePath": "staticwebassets\\images\\splash2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\star.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\star.png",
       "PackagePath": "staticwebassets\\images\\star.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\statistics-icon-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\statistics-icon-1.png",
       "PackagePath": "staticwebassets\\images\\statistics-icon-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\statistics-icon-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\statistics-icon-2.png",
       "PackagePath": "staticwebassets\\images\\statistics-icon-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\statistics-icon-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\statistics-icon-3.png",
       "PackagePath": "staticwebassets\\images\\statistics-icon-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\statistics-icon-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\statistics-icon-4.png",
       "PackagePath": "staticwebassets\\images\\statistics-icon-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-1.png",
       "PackagePath": "staticwebassets\\images\\team-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-2.png",
       "PackagePath": "staticwebassets\\images\\team-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-3.png",
       "PackagePath": "staticwebassets\\images\\team-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-1.png",
       "PackagePath": "staticwebassets\\images\\team-img-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-2.png",
       "PackagePath": "staticwebassets\\images\\team-img-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-3.png",
       "PackagePath": "staticwebassets\\images\\team-img-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-4.png",
       "PackagePath": "staticwebassets\\images\\team-img-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-5.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-5.png",
       "PackagePath": "staticwebassets\\images\\team-img-5.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-6.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-6.png",
       "PackagePath": "staticwebassets\\images\\team-img-6.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-7.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-img-7.png",
       "PackagePath": "staticwebassets\\images\\team-img-7.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-item-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\team-item-bg.png",
       "PackagePath": "staticwebassets\\images\\team-item-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\testimonials-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\testimonials-bg.png",
       "PackagePath": "staticwebassets\\images\\testimonials-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\testimonials-user-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\testimonials-user-1.png",
       "PackagePath": "staticwebassets\\images\\testimonials-user-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\testimonials-user-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\testimonials-user-2.png",
       "PackagePath": "staticwebassets\\images\\testimonials-user-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\testimonials-user-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\testimonials-user-3.png",
       "PackagePath": "staticwebassets\\images\\testimonials-user-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\text-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\text-bg.png",
       "PackagePath": "staticwebassets\\images\\text-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\text-img.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\text-img.png",
       "PackagePath": "staticwebassets\\images\\text-img.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\top-level.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\top-level.png",
       "PackagePath": "staticwebassets\\images\\top-level.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\tournaments-bg.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\tournaments-bg.png",
       "PackagePath": "staticwebassets\\images\\tournaments-bg.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\tournaments-slide-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\tournaments-slide-1.png",
       "PackagePath": "staticwebassets\\images\\tournaments-slide-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\tournaments-slide-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\tournaments-slide-2.png",
       "PackagePath": "staticwebassets\\images\\tournaments-slide-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\tournaments-slide-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\tournaments-slide-3.png",
       "PackagePath": "staticwebassets\\images\\tournaments-slide-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\tournaments-tree.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\tournaments-tree.png",
       "PackagePath": "staticwebassets\\images\\tournaments-tree.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\trophies-icon-1.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\trophies-icon-1.png",
       "PackagePath": "staticwebassets\\images\\trophies-icon-1.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\trophies-icon-2.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\trophies-icon-2.png",
       "PackagePath": "staticwebassets\\images\\trophies-icon-2.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\trophies-icon-3.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\trophies-icon-3.png",
       "PackagePath": "staticwebassets\\images\\trophies-icon-3.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\trophies-icon-4.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\trophies-icon-4.png",
       "PackagePath": "staticwebassets\\images\\trophies-icon-4.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\user-icon.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\user-icon.png",
       "PackagePath": "staticwebassets\\images\\user-icon.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\versus.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\versus.png",
       "PackagePath": "staticwebassets\\images\\versus.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\visa.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\visa.png",
       "PackagePath": "staticwebassets\\images\\visa.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\waitng-icon.png",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\images\\waitng-icon.png",
       "PackagePath": "staticwebassets\\images\\waitng-icon.png"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\countdown.jquery.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\countdown.jquery.js",
       "PackagePath": "staticwebassets\\js\\countdown.jquery.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\fontawesome.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\fontawesome.js",
       "PackagePath": "staticwebassets\\js\\fontawesome.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\jquery-3.5.1.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\jquery-3.5.1.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-3.5.1.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\jquery.counterup.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\jquery.counterup.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\jquery.magnific-popup.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\jquery.nice-select.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\jquery.nice-select.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\jquery.waypoints.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\jquery.waypoints.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\main.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\owl.carousel.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\slick.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\slick.js",
       "PackagePath": "staticwebassets\\js\\slick.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\wow.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\wow.js",
       "PackagePath": "staticwebassets\\js\\wow.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\xzoom-setup.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\xzoom-setup.js",
       "PackagePath": "staticwebassets\\js\\xzoom-setup.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\xzoom.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\xzoom.js",
       "PackagePath": "staticwebassets\\js\\xzoom.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\abdah\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

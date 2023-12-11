@@ -118,31 +118,42 @@ namespace Projet.Net.Controllers
                 return NotFound();
             }
 
-            // Update the properties of the existing player
-            existingJoueur.Pseudonyme = joueur.Pseudonyme;
-            existingJoueur.DateNaissance = joueur.DateNaissance;
-            existingJoueur.EquipeId = joueur.EquipeId;
+            // Check if another player with the same pseudonyme exists
+            var playerWithSamePseudonyme = await _context.Joueurs
+                .Where(j => j.Id != id && j.Pseudonyme == joueur.Pseudonyme)
+                .FirstOrDefaultAsync();
 
-
-            if (ModelState.IsValid)
+            if (playerWithSamePseudonyme != null)
             {
-                try
+                ModelState.AddModelError(nameof(Joueur.Pseudonyme), "A player with the same pseudonyme already exists.");
+            }
+            else
+            {
+                // Update the properties of the existing player
+                existingJoueur.Pseudonyme = joueur.Pseudonyme;
+                existingJoueur.DateNaissance = joueur.DateNaissance;
+                existingJoueur.EquipeId = joueur.EquipeId;
+
+                if (ModelState.IsValid)
                 {
-                    _context.Update(existingJoueur);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!JoueurExists(existingJoueur.Id))
+                    try
                     {
-                        return NotFound();
+                        _context.Update(existingJoueur);
+                        await _context.SaveChangesAsync();
                     }
-                    else
+                    catch (DbUpdateConcurrencyException)
                     {
-                        throw;
+                        if (!JoueurExists(existingJoueur.Id))
+                        {
+                            return NotFound();
+                        }
+                        else
+                        {
+                            throw;
+                        }
                     }
+                    return RedirectToAction(nameof(Index));
                 }
-                return RedirectToAction(nameof(Index));
             }
 
             // Use EquipeName instead of EquipeId for SelectList
