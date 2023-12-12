@@ -11,7 +11,7 @@ using Projet.Net.Models;
 
 namespace Projet.Net.Controllers
 {
-    [Authorize(Roles="Admin")]
+    [Authorize]
     public class EquipesController : Controller
     {
         private readonly EsportsDbContext _context;
@@ -24,9 +24,9 @@ namespace Projet.Net.Controllers
         // GET: Equipes
         public async Task<IActionResult> Index()
         {
-              return _context.Equipes != null ? 
-                          View(await _context.Equipes.ToListAsync()) :
-                          Problem("Entity set 'IitgamingContext.Equipes'  is null.");
+            return _context.Equipes != null ?
+                        View(await _context.Equipes.ToListAsync()) :
+                        Problem("Entity set 'IitgamingContext.Equipes'  is null.");
         }
 
         // GET: Equipes/Details/5
@@ -48,6 +48,7 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Equipes/Create
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
@@ -58,6 +59,7 @@ namespace Projet.Net.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([Bind("NomEquipe")] Equipe equipe)
         {
             if (ModelState.IsValid)
@@ -77,6 +79,7 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Equipes/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Equipes == null)
@@ -97,6 +100,7 @@ namespace Projet.Net.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,NomEquipe")] Equipe equipe)
         {
             if (id != equipe.Id)
@@ -128,6 +132,7 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Equipes/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Equipes == null)
@@ -148,6 +153,7 @@ namespace Projet.Net.Controllers
         // POST: Equipes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Equipes == null)
@@ -155,18 +161,41 @@ namespace Projet.Net.Controllers
                 return Problem("Entity set 'IitgamingContext.Equipes'  is null.");
             }
             var equipe = await _context.Equipes.FindAsync(id);
+            // Check for associated Resultats
+            bool hasjoueur = _context.Joueurs.Any(r => r.EquipeId == id);
+            bool hasresultg = _context.Resultats.Any(r => r.EquipeGagnanteId == id);
+            bool hasresultp = _context.Resultats.Any(r => r.EquipePerdanteId == id);
+
+
+            if (hasjoueur)
+            {
+                ModelState.AddModelError(string.Empty, "Impossible de supprimer cette équipe car il y a des joueurs associés.");
+                return View(equipe);
+            }
+            if (hasresultg)
+            {
+                ModelState.AddModelError(string.Empty, "Impossible de supprimer cette équipe car il y a des résultats associés.");
+                return View(equipe);
+            }
+            if (hasresultp)
+            {
+                ModelState.AddModelError(string.Empty, "Impossible de supprimer cette équipe car il y a des résultats associés.");
+                return View(equipe);
+            }
+
+
             if (equipe != null)
             {
                 _context.Equipes.Remove(equipe);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool EquipeExists(int id)
         {
-          return (_context.Equipes?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Equipes?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

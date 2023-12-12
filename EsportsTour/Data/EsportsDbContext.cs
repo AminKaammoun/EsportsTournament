@@ -47,6 +47,7 @@ namespace EsportsTour.Data
                 entity.HasOne(d => d.Equipe).WithMany(p => p.Joueurs)
                     .HasForeignKey(d => d.EquipeId)
                     .HasConstraintName("FK__Joueurs__EquipeI__3B75D760");
+
             });
 
             modelBuilder.Entity<Resultat>(entity =>

@@ -6,6 +6,7 @@
 
 
 
+
 <section id="shop-cart-section" class="pt-120 pb-120">
     <div class="overlay">
         <div class="container">
@@ -24,9 +25,17 @@
                             <dd class="col-sm-10" style="color: white;">
                                 @Html.DisplayFor(model => model.NomEquipe)
                             </dd>
-                           
+
                         </div>
                     </div>
+
+                    @* Display validation errors *@
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        <div class="text-danger">
+                            <h3>@Html.ValidationSummary(false, "Une erreur s'est produite lors de la suppression d'équipe :")</h3>
+                        </div>
+                    }
                 </div>
 
             </div>
@@ -39,3 +48,4 @@
             </form>
         </div>
 </section>
+

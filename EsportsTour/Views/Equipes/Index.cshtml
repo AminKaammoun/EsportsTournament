@@ -1,12 +1,12 @@
 ﻿@model IEnumerable<Projet.Net.Models.Equipe>
-
 @{
     ViewData["Title"] = "Index";
 }
 
 
 
-
+@if (User.IsInRole("Admin"))
+{
 <section id="shop-cart-section" class="pt-120 pb-120">
     <div class="overlay">
         <div class="container">
@@ -53,4 +53,41 @@
             </div>
         </div>
     </div>
-</section>
+    </section>
+}else{
+
+
+    <section id="team-section" class="pb-120">
+        <div class="overlay pt-120">
+            <div class="container wow fadeInUp">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="section-header text-center">
+                            <h2 class="title">Rejoindre une équipe</h2>
+                         
+                        </div>
+                    </div>
+                </div>
+                @foreach (var item in Model)
+                {
+                <div class="row wrapper">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-item text-center">
+                            <div class="top-item text-center">
+                                <img src="~/images/g2Esports.png" alt="image">
+                                
+                            </div>
+                            <div class="bottom-area">
+                                <a href="#"><h5> @Html.DisplayFor(modelItem => item.NomEquipe)</h5></a>
+                                <a class="cmn-btn" id="join" asp-area="" asp-page="">Rejoindre</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                }
+            </div>
+        </div>
+    </section>
+}
+}

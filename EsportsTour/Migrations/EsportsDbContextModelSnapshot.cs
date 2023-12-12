@@ -251,10 +251,18 @@ namespace EsportsTour.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId1")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id")
                         .HasName("PK__Joueurs__D6CEE2407FCE1182");
 
                     b.HasIndex("EquipeId");
+
+                    b.HasIndex("UserId1");
 
                     b.ToTable("Joueurs");
                 });
@@ -338,7 +346,13 @@ namespace EsportsTour.Migrations
                         .HasForeignKey("EquipeId")
                         .HasConstraintName("FK__Joueurs__EquipeI__3B75D760");
 
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId1");
+
                     b.Navigation("Equipe");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Projet.Net.Models.Resultat", b =>

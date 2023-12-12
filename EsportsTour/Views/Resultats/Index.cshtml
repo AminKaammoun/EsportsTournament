@@ -6,7 +6,8 @@
 
 
 
-
+@if (User.IsInRole("Admin"))
+{
 <section id="shop-cart-section" class="pt-120 pb-120">
     <div class="overlay">
         <div class="container">
@@ -90,3 +91,110 @@
             </div>
         </div>
 </section>
+}else{
+    <!-- banner-section start -->
+    <section id="banner-section" class="inner-banner tournaments">
+        <div class="ani-img">
+            <img class="img-1" src="images/banner-circle-1.png" alt="icon">
+            <img class="img-2" src="images/banner-circle-2.png" alt="icon">
+            <img class="img-3" src="images/banner-circle-2.png" alt="icon">
+        </div>
+        <div class="banner-content d-flex align-items-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="main-content">
+                            <h1>Resultats</h1>
+                            <div class="breadcrumb-area">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb d-flex justify-content-center">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Results</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="headign-info">
+                
+              
+                    <div class="bottom">
+                        
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        
+                         
+                            <li class="nav-item">
+                                <a class="nav-link" id="matches-tab" data-toggle="tab" href="#matches" role="tab"
+                                    aria-controls="matches" aria-selected="false">matches</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" id="prizes-tab" data-toggle="tab" href="#prizes" role="tab"
+                                    aria-controls="prizes" aria-selected="false">prizes</a>
+                            </li>
+                        </ul>
+                   
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- banner-section end -->
+
+    <!-- Testimonials Content Start -->
+    <section id="tournaments-content">
+       
+            <div class="tab-pane fade" id="matches" role="tabpanel" aria-labelledby="matches-tab">
+                <div class="matches pb-120">
+                    <div class="container overlay-cus">
+                        <div class="row w-cus">
+                            <div class="col-lg-12">
+                                <div class="unscheduled">
+                                    <h4>Matches Récent</h4>
+
+                                @foreach (var item in Model){
+                                    <div class="single-matches d-flex align-items-center justify-content-between">
+                                        <div class="left">
+                                            <p> @Html.DisplayFor(modelItem => item.Tournoi.Nom)</p>
+                                            <p> @Html.DisplayFor(modelItem => item.DateMatch)</p>
+                                        </div>
+                                        <div class="mid d-flex align-items-center justify-content-between">
+											<div class="player left-player d-flex align-items-center">
+                                                <span class="tier victory">Tier VII</span>&nbsp;&nbsp;
+                                                
+												<p> @Html.DisplayFor(modelItem => item.EquipePerdante.NomEquipe)</p>
+                                               
+                                                <img src="~/images/g2Esports.png" alt="image" height="40" width="40">
+                                            </div>
+                                            <h5 class="vs">
+                                                <span>  @Html.DisplayFor(modelItem => item.ScoreGagnant)</span>
+                                                <span>:</span>
+                                                <span> @Html.DisplayFor(modelItem => item.ScorePerdant)</span>
+                                            </h5>
+                                            <div class="player right-player d-flex align-items-center">
+                                                <img src="~/images/g2Esports.png" alt="image" height="40" width="40">
+                                                <p>  @Html.DisplayFor(modelItem => item.EquipeGagnante.NomEquipe)</p>
+                                                <span class="tier second">Tier VII</span> 
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <img src="images/right-arrows.png" alt="icon">
+                                        </div>
+                                    </div>
+                                    }
+
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+
+    </section>
+}

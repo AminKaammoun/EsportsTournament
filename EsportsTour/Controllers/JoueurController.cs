@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Projet.Net.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize]
     public class JoueurController : Controller
     {
       
@@ -48,16 +48,19 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Joueur/Create
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             // Populate EquipeId with the Equipe names
             ViewData["EquipeId"] = new SelectList(_context.Equipes, "Id", "NomEquipe");
+       
             return View();
         }
 
         // POST: Joueur/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([Bind("Pseudonyme,DateNaissance,EquipeId")] Joueur joueur)
         {
             if (ModelState.IsValid)
@@ -67,6 +70,7 @@ namespace Projet.Net.Controllers
                 {
                     ModelState.AddModelError("Pseudonyme", "A player with this pseudonyme already exists.");
                     ViewData["EquipeId"] = new SelectList(_context.Equipes, "Id", "NomEquipe", joueur.EquipeId);
+                  
                     return View(joueur);
                 }
 
@@ -78,11 +82,13 @@ namespace Projet.Net.Controllers
 
             // Use EquipeName instead of EquipeId for SelectList
             ViewData["EquipeId"] = new SelectList(_context.Equipes, "Id", "NomEquipe", joueur.EquipeId);
+        
             return View(joueur);
         }
 
 
         // GET: Joueur/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Joueurs == null)
@@ -104,6 +110,7 @@ namespace Projet.Net.Controllers
         // POST: Joueur/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Pseudonyme,DateNaissance,EquipeId")] Joueur joueur)
         {
             if (id != joueur.Id)
@@ -162,6 +169,7 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Joueur/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Joueurs == null)
@@ -183,6 +191,7 @@ namespace Projet.Net.Controllers
         // POST: Joueur/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Joueurs == null)

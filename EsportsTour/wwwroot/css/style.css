@@ -860,12 +860,12 @@ body::-webkit-scrollbar-thumb:hover {
 /* banner-section */
 #banner-section {
     position: relative;
-    height: 100vh; /* Set the height to 100% of the viewport height */
+    height: 100%; /* Set the height to 100% of the viewport height */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     background-color: #280B70;
     background-image: url(../images/banner-bg.png);
-    width: 100vh;
+    width: 100%;
     background-size: cover; /* Ensure the background image covers the entire section */
     background-repeat: no-repeat;
     z-index: 0;

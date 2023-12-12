@@ -19,6 +19,8 @@ using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using Projet.Net.Models;
+using EsportsTour.Data;
 
 namespace EsportsTour.Areas.Identity.Pages.Account
 {
@@ -31,13 +33,15 @@ namespace EsportsTour.Areas.Identity.Pages.Account
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly EsportsDbContext _dbContext;
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             IUserStore<IdentityUser> userStore,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender,
-            RoleManager<IdentityRole> roleManager)
+            RoleManager<IdentityRole> roleManager,
+            EsportsDbContext dbContext)
         {
             _userManager = userManager;
             _userStore = userStore;
@@ -46,6 +50,7 @@ namespace EsportsTour.Areas.Identity.Pages.Account
             _logger = logger;
             _emailSender = emailSender;
             _roleManager = roleManager;
+            _dbContext = dbContext;
         }
 
         /// <summary>
@@ -79,11 +84,11 @@ namespace EsportsTour.Areas.Identity.Pages.Account
             /// </summary>
             /// 
 
-           
+
             [Required]
 
             [Display(Name = "UserName")]
-          
+
             public string UserName { get; set; }
 
             [Required]
@@ -114,7 +119,8 @@ namespace EsportsTour.Areas.Identity.Pages.Account
 
             [Required]
             public string Role = "User";
-           
+
+
         }
 
 
@@ -142,7 +148,7 @@ namespace EsportsTour.Areas.Identity.Pages.Account
                 {
                     _logger.LogInformation("User created a new account with password.");
                     await _userManager.AddToRoleAsync(user, "User");
-
+                    await AddNewJoueur(user.UserName);
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -190,6 +196,20 @@ namespace EsportsTour.Areas.Identity.Pages.Account
             }
         }
 
+        private Joueur CreateJoueur()
+        {
+            try
+            {
+                return Activator.CreateInstance<Joueur>();
+            }
+            catch
+            {
+                throw new InvalidOperationException($"Can't create an instance of '{nameof(Joueur)}'. " +
+                   $"Ensure that '{nameof(Joueur)}' is not an abstract class and has a parameterless constructor, or alternatively " +
+                   $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
+            }
+        }
+
         private IUserEmailStore<IdentityUser> GetEmailStore()
         {
             if (!_userManager.SupportsUserEmail)
@@ -197,6 +217,16 @@ namespace EsportsTour.Areas.Identity.Pages.Account
                 throw new NotSupportedException("The default UI requires a user store with email support.");
             }
             return (IUserEmailStore<IdentityUser>)_userStore;
+        }
+
+        private async Task AddNewJoueur(string username)
+        {
+            var joueur = new Joueur();
+            _dbContext.Add(joueur);
+            joueur.Pseudonyme = username;
+            joueur.DateNaissance = DateTime.Now;
+            await _dbContext.SaveChangesAsync();
+
         }
     }
 }

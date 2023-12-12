@@ -1,10 +1,14 @@
-﻿@model IEnumerable<Projet.Net.Models.Joueur>
-
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<Projet.Net.Models.Joueur>
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 @{
     ViewData["Title"] = "Index";
 }
 
 
+@if (User.IsInRole("Admin"))
+{
 
 
 <section id="shop-cart-section" class="pt-120 pb-120">
@@ -23,6 +27,8 @@
                                     <th>
                                         @Html.DisplayNameFor(model => model.Pseudonyme)
                                     </th>
+                                   
+                                 
                                     <th>
                                         Date de Naissance
                                     </th>
@@ -48,6 +54,7 @@
                                             <img src="~/images/cart-image.png" alt="image">
                                             <span>  @Html.DisplayFor(modelItem => item.Pseudonyme)</span>
                                         </th>
+                                       
                                         <td> @String.Format("{0:yyyy-MM-dd}", item.DateNaissance)</td>
                                         <td>   @Html.DisplayFor(modelItem => item.Equipe.NomEquipe)</td>
 
@@ -68,3 +75,112 @@
             </div>
         </div>
 </section>
+}else{
+    <section id="banner-section" class="inner-banner profile">
+        <div class="ani-img">
+            <img class="img-1" src="~/images/banner-circle-1.png" alt="icon">
+            <img class="img-2" src="~/images/banner-circle-2.png" alt="icon">
+            <img class="img-3" src="~/images/banner-circle-2.png" alt="icon">
+        </div>
+        <div class="banner-content d-flex align-items-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="main-content">
+                            <h1>Profile Page</h1>
+                            <div class="breadcrumb-area">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb d-flex justify-content-center">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Profile Page</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="heading-area">
+                <div class="row justify-content-between">
+                    <div class="col-md-6">
+                        <div class="profile-area d-flex align-items-center">
+                            <div class="photo">
+                                <img src="~/images/profile-logo.png" alt="Image">
+                            </div>
+                            <div class="name-area">
+                                <h4>@UserManager.GetUserName(User)</h4>
+                                <span>0 followers</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
+                        <div class="right d-flex align-items-center">
+                            <a href="#" class="cmn-btn">Edit</a>
+                            <div class="user-logo d-flex align-items-center justify-content-center">
+                                <img src="~/images/user-icon.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="all-trophies" class="pb-120">
+        <div class="container">
+            <div class="tab-content">
+                <div class="tab-pane fade show active" role="tabpanel" aria-labelledby="overview-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-trophies d-flex align-items-center">
+                                <div class="left d-flex align-items-center justify-content-center">
+                                    <img src="~/images/trophies-icon-1.png" alt="image">
+                                </div>
+                                <div class="right">
+                                    <p class="text-sm">Elite Trophies</p>
+                                    <h4>0</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-trophies d-flex align-items-center">
+                                <div class="left d-flex align-items-center justify-content-center">
+                                    <img src="~/images/trophies-icon-2.png" alt="image">
+                                </div>
+                                <div class="right">
+                                    <p class="text-sm">gold-trophy</p>
+                                    <h4>6</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-trophies d-flex align-items-center">
+                                <div class="left d-flex align-items-center justify-content-center">
+                                    <img src="~/images/trophies-icon-3.png" alt="image">
+                                </div>
+                                <div class="right">
+                                    <p class="text-sm">silver trophy</p>
+                                    <h4>2</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-trophies d-flex align-items-center">
+                                <div class="left d-flex align-items-center justify-content-center">
+                                    <img src="~/images/trophies-icon-4.png" alt="image">
+                                </div>
+                                <div class="right">
+                                    <p class="text-sm">Bronze Trophies</p>
+                                    <h4>5</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+                    </section>
+}

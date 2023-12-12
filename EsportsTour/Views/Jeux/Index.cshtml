@@ -5,7 +5,9 @@
 }
 
 
-
+@if (User.IsInRole("Admin"))
+{
+   
 <section id="shop-cart-section" class="pt-120 pb-120">
     <div class="overlay">
         <div class="container">
@@ -55,3 +57,46 @@
         </div>
     </div>
 </section>
+}
+else{
+    <br />
+    <br />
+    <br />
+    <br />
+    <section id="available-game-section">
+        <div class="overlay pb-120">
+            <div class="container wow fadeInUp">
+                <div class="main-container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-10">
+                            <div class="section-header">
+                                <h2 class="title">Available Games</h2>
+                                <p>We are constantly adding new games</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="available-game-carousel">
+                        <div class="single-item">
+                            <a href="#"><img src="images/game-1.png" alt="image"></a>
+                        </div>
+                        <div class="single-item">
+                            <a href="#"><img src="images/game-2.png" alt="image"></a>
+                        </div>
+                        <div class="single-item">
+                            <a href="#"><img src="images/game-3.png" alt="image"></a>
+                        </div>
+                        <div class="single-item">
+                            <a href="#"><img src="images/game-4.png" alt="image"></a>
+                        </div>
+                        <div class="single-item">
+                            <a href="#"><img src="images/game-3.png" alt="image"></a>
+                        </div>
+                    </div>
+                    <div class="btn-area text-center">
+                        <a href="tournaments.html" class="cmn-btn">View All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}

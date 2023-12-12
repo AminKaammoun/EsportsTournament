@@ -11,7 +11,7 @@ using Projet.Net.Models;
 
 namespace Projet.Net.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize]
     public class ResultatsController : Controller
     {
 
@@ -51,6 +51,7 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Resultats/Create
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             ViewData["EquipeGagnanteId"] = new SelectList(_context.Equipes, "Id", "NomEquipe");
@@ -64,6 +65,7 @@ namespace Projet.Net.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([Bind("TournoiId,EquipeGagnanteId,EquipePerdanteId,ScoreGagnant,ScorePerdant,DateMatch")] Resultat resultat)
         {
             if (ModelState.IsValid)
@@ -79,6 +81,7 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Resultats/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Resultats == null)
@@ -102,6 +105,7 @@ namespace Projet.Net.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id, [Bind("Id,TournoiId,EquipeGagnanteId,EquipePerdanteId,ScoreGagnant,ScorePerdant,DateMatch")] Resultat resultat)
         {
             if (id == null || resultat.Id != id)
@@ -148,6 +152,7 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Resultats/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Resultats == null)
@@ -171,6 +176,7 @@ namespace Projet.Net.Controllers
         // POST: Resultats/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Resultats == null)

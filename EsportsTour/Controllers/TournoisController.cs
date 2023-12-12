@@ -12,7 +12,7 @@ using Projet.Net.Models;
 
 namespace Projet.Net.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize]
     public class TournoisController : Controller
     {
         private readonly EsportsDbContext _context;
@@ -23,6 +23,7 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Tournois
+
         public async Task<IActionResult> Index()
         {
             
@@ -33,6 +34,7 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Tournois/Details/5
+
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Tournois == null)
@@ -52,6 +54,7 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Tournois/Create
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             ViewData["JeuId"] = new SelectList(_context.Jeux, "Id", "NomJeu"); // Add this line
@@ -64,6 +67,7 @@ namespace Projet.Net.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([Bind("Nom,Descr,JeuId,DateDebut,DateFin")] Tournoi tournoi)
         {
             if (ModelState.IsValid)
@@ -93,6 +97,7 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Tournois/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Tournois == null)
@@ -116,6 +121,7 @@ namespace Projet.Net.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id, [Bind("Id,Nom,Descr,JeuId,DateDebut,DateFin")] Tournoi tournoi)
         {
             if (id == null || tournoi.Id != id)
@@ -160,6 +166,7 @@ namespace Projet.Net.Controllers
         }
 
         // GET: Tournois/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Tournois == null)
@@ -181,6 +188,7 @@ namespace Projet.Net.Controllers
         // POST: Tournois/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Tournois == null)

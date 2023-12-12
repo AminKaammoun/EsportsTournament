@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using EsportsTour.Data;
 using Microsoft.AspNetCore.Identity;
+using EsportsTour.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
