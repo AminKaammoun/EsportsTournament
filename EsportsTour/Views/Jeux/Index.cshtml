@@ -37,7 +37,7 @@
                                 {
                                     <tr>
                                         <th scope="row">
-                                            <img src="~/images/cart-image.png" alt="image">
+                                                <img src="~/img/@Html.DisplayFor(modelItem => item.ImgJeu)" alt="image" height="80" width="80">
                                             <span> @Html.DisplayFor(modelItem => item.NomJeu)</span>
                                         </th>
                                         <td> @Html.DisplayFor(modelItem => item.Categorie)</td>
@@ -70,30 +70,21 @@ else{
                     <div class="row justify-content-between">
                         <div class="col-lg-10">
                             <div class="section-header">
-                                <h2 class="title">Available Games</h2>
-                                <p>We are constantly adding new games</p>
+                                <h2 class="title">Les jeux disponible</h2>
+                                <p>Tous les différent jeux disponible aujourd'hui!</p>
                             </div>
                         </div>
                     </div>
                     <div class="available-game-carousel">
+                        @foreach (var item in Model)
+                        {
                         <div class="single-item">
-                            <a href="#"><img src="images/game-1.png" alt="image"></a>
+                                <a href="#"> <img src="~/img/@Html.DisplayFor(modelItem => item.ImgJeu)" alt="image" height="345" width="259"></a>
                         </div>
-                        <div class="single-item">
-                            <a href="#"><img src="images/game-2.png" alt="image"></a>
-                        </div>
-                        <div class="single-item">
-                            <a href="#"><img src="images/game-3.png" alt="image"></a>
-                        </div>
-                        <div class="single-item">
-                            <a href="#"><img src="images/game-4.png" alt="image"></a>
-                        </div>
-                        <div class="single-item">
-                            <a href="#"><img src="images/game-3.png" alt="image"></a>
-                        </div>
+                        }
                     </div>
                     <div class="btn-area text-center">
-                        <a href="tournaments.html" class="cmn-btn">View All</a>
+                        <a href="tournaments.html" class="cmn-btn">Voir tous</a>
                     </div>
                 </div>
             </div>

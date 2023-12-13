@@ -12,6 +12,6 @@ namespace EsportsTour
         public virtual ICollection<Tournoi> Tournois { get; set; } = new List<Tournoi>();
 
 
-        public IFormFile fileImage { get; set; }
+        public IFormFile imageFile { get; set; }
     }
 }

@@ -10,6 +10,7 @@ using EsportsTour.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Data;
 using Projet.Net.Models;
+using EsportsTour;
 
 namespace EsportsTour.Controllers
 {
@@ -17,10 +18,12 @@ namespace EsportsTour.Controllers
     public class JeuxController : Controller
     {
         private readonly EsportsDbContext _context;
+        IWebHostEnvironment hostEnvironment;
 
-        public JeuxController(EsportsDbContext context)
+        public JeuxController(EsportsDbContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
+            this.hostEnvironment = hostEnvironment;
         }
 
         // GET: Jeux
@@ -62,7 +65,7 @@ namespace EsportsTour.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Create([Bind("Id,NomJeu,Categorie,ImgJeu")] Jeux jeux)
+        public async Task<IActionResult> Create([Bind("Id,NomJeu,Categorie,imageFile")] JeuViewModel jeux)
         {
             if (ModelState.IsValid)
             {
@@ -71,7 +74,20 @@ namespace EsportsTour.Controllers
                     ModelState.AddModelError("NomJeu", "A game with this name already exists.");
                     return View(jeux);
                 }
-                _context.Add(jeux);
+                string filename = "";
+                if (jeux.imageFile != null)
+                {
+                    string uploadfolder = Path.Combine(hostEnvironment.WebRootPath, "img");
+                    filename = Guid.NewGuid().ToString() + "_" + jeux.imageFile.FileName;
+                    string filepath = Path.Combine(uploadfolder, filename);
+                    jeux.imageFile.CopyTo(new FileStream(filepath, FileMode.Create));
+
+                }
+                Jeux j = new Jeux();
+                j.NomJeu = jeux.NomJeu;
+                j.Categorie = jeux.Categorie;
+                j.ImgJeu = filename;
+                _context.Add(j);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
@@ -87,12 +103,19 @@ namespace EsportsTour.Controllers
                 return NotFound();
             }
 
-            var jeux = await _context.Jeux.FindAsync(id);
-            if (jeux == null)
+            var jeu = await _context.Jeux.FindAsync(id);
+            if (jeu == null)
             {
                 return NotFound();
             }
-            return View(jeux);
+            var jeuViewModel = new JeuViewModel
+            {
+                Id = jeu.Id,
+                NomJeu = jeu.NomJeu,
+                Categorie = jeu.Categorie,
+
+            };
+            return View(jeuViewModel);
         }
 
         // POST: Jeux/Edit/5
@@ -101,7 +124,7 @@ namespace EsportsTour.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,NomJeu,Categorie,ImgJeu")] Jeux jeux)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,NomJeu,Categorie,imageFile")] JeuViewModel jeux)
         {
             if (id != jeux.Id)
             {
@@ -112,8 +135,35 @@ namespace EsportsTour.Controllers
             {
                 try
                 {
-                    _context.Update(jeux);
+                    var existingJeu = await _context.Jeux.FindAsync(id);
+
+                    if (existingJeu == null)
+                    {
+                        return NotFound();
+                    }
+
+                    if (_context.Jeux.Any(e => e.NomJeu == jeux.NomJeu && e.Id != id))
+                    {
+                        ModelState.AddModelError("NomJeu", "Jeu with this name already exists.");
+                        return View(jeux);
+                    }
+
+                    existingJeu.NomJeu = jeux.NomJeu;
+
+                    if (jeux.imageFile != null)
+                    {
+                        string uploadFolder = Path.Combine(hostEnvironment.WebRootPath, "img");
+                        string filename = Guid.NewGuid().ToString() + "_" + jeux.imageFile.FileName;
+                        string filePath = Path.Combine(uploadFolder, filename);
+                       jeux.imageFile.CopyTo(new FileStream(filePath, FileMode.Create));
+
+                        existingJeu.ImgJeu = filename;
+                    }
+
+                    // Save changes to the database
                     await _context.SaveChangesAsync();
+
+                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -126,13 +176,13 @@ namespace EsportsTour.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
             }
+
             return View(jeux);
         }
 
-        // GET: Jeux/Delete/5
-        [Authorize(Roles = "Admin")]
+            // GET: Jeux/Delete/5
+            [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Jeux == null)

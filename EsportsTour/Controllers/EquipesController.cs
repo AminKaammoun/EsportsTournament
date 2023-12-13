@@ -27,6 +27,8 @@ namespace Projet.Net.Controllers
         // GET: Equipes
         public async Task<IActionResult> Index()
         {
+
+
             return _context.Equipes != null ?
                         View(await _context.Equipes.ToListAsync()) :
                         Problem("Entity set 'IitgamingContext.Equipes'  is null.");
@@ -110,7 +112,7 @@ namespace Projet.Net.Controllers
             {
                 Id = equipe.Id,
                 NomEquipe = equipe.NomEquipe,
-                // Map other properties as needed
+               
             };
             return View(equipeViewModel);
         }
