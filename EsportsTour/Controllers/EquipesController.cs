@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Projet.Net.Models;
+using EsportsTour;
+using Microsoft.AspNetCore.Routing.Constraints;
 
 namespace Projet.Net.Controllers
 {
@@ -15,10 +17,11 @@ namespace Projet.Net.Controllers
     public class EquipesController : Controller
     {
         private readonly EsportsDbContext _context;
-
-        public EquipesController(EsportsDbContext context)
+        IWebHostEnvironment hostEnvironment;
+        public EquipesController(EsportsDbContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
+            this.hostEnvironment = hostEnvironment;
         }
 
         // GET: Equipes
@@ -60,7 +63,7 @@ namespace Projet.Net.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Create([Bind("NomEquipe")] Equipe equipe)
+        public async Task<IActionResult> Create([Bind("NomEquipe","imageFile")] EquipeViewModel equipe)
         {
             if (ModelState.IsValid)
             {
@@ -70,8 +73,19 @@ namespace Projet.Net.Controllers
                     ModelState.AddModelError("NomEquipe", "Team with this name already exists.");
                     return View(equipe);
                 }
+                string filename = "";
+                if (equipe.imageFile != null)
+                {
+                    string uploadfolder = Path.Combine(hostEnvironment.WebRootPath, "img");
+                    filename= Guid.NewGuid().ToString()+ "_" + equipe.imageFile.FileName;
+                    string filepath = Path.Combine(uploadfolder, filename);
+                    equipe.imageFile.CopyTo(new FileStream(filepath, FileMode.Create));
 
-                _context.Add(equipe);
+                }
+                Equipe e = new Equipe();
+                e.NomEquipe = equipe.NomEquipe;
+                e.image = filename;
+                _context.Add(e);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
@@ -112,7 +126,9 @@ namespace Projet.Net.Controllers
             {
                 try
                 {
+                   
                     _context.Update(equipe);
+                   
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)

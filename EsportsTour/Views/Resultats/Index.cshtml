@@ -167,8 +167,8 @@
                                                 <span class="tier victory">Tier VII</span>&nbsp;&nbsp;
                                                 
 												<p> @Html.DisplayFor(modelItem => item.EquipePerdante.NomEquipe)</p>
-                                               
-                                                <img src="~/images/g2Esports.png" alt="image" height="40" width="40">
+
+                                                <img src="~/img/@Html.DisplayFor(modelItem => item.EquipePerdante.image)" alt="image" height="40" width="40">
                                             </div>
                                             <h5 class="vs">
                                                 <span>  @Html.DisplayFor(modelItem => item.ScoreGagnant)</span>
@@ -176,7 +176,7 @@
                                                 <span> @Html.DisplayFor(modelItem => item.ScorePerdant)</span>
                                             </h5>
                                             <div class="player right-player d-flex align-items-center">
-                                                <img src="~/images/g2Esports.png" alt="image" height="40" width="40">
+                                                <img src="~/img/@Html.DisplayFor(modelItem => item.EquipeGagnante.image)" alt="image" height="40" width="40">
                                                 <p>  @Html.DisplayFor(modelItem => item.EquipeGagnante.NomEquipe)</p>
                                                 <span class="tier second">Tier VII</span> 
                                             </div>

@@ -837,6 +837,18 @@
       "PackagePath": "staticwebassets\\images\\waitng-icon.png"
     },
     {
+      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\img\\0413e01a-3fde-4a24-bf13-0ddcc80dfa0e_g2Esports.png",
+      "PackagePath": "staticwebassets\\img\\0413e01a-3fde-4a24-bf13-0ddcc80dfa0e_g2Esports.png"
+    },
+    {
+      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\img\\2b108f1f-8ab9-4e59-8487-95f53532fe2b_Cloud_9_logo_PNG3.png",
+      "PackagePath": "staticwebassets\\img\\2b108f1f-8ab9-4e59-8487-95f53532fe2b_Cloud_9_logo_PNG3.png"
+    },
+    {
+      "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\img\\b647f53e-d952-4e21-bb58-5a719267f2e8_fnatic.png",
+      "PackagePath": "staticwebassets\\img\\b647f53e-d952-4e21-bb58-5a719267f2e8_fnatic.png"
+    },
+    {
       "Id": "C:\\Users\\KMOON\\source\\repos\\EsportsTournament\\EsportsTour\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },

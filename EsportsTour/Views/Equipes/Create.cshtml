@@ -1,4 +1,4 @@
-﻿@model Projet.Net.Models.Equipe
+﻿@model EsportsTour.EquipeViewModel
 
 @{
     ViewData["Title"] = "Create";
@@ -18,7 +18,7 @@
                     <br />
                     <div class="row">
                         <div class="col-md-4">
-                            <form asp-action="Create">
+                            <form asp-action="Create" enctype="multipart/form-data">
                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                                 <div class="form-group">
@@ -26,6 +26,13 @@
                                     <input asp-for="NomEquipe" class="form-control" />
                                     <span asp-validation-for="NomEquipe" class="text-danger"></span>
                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="imageFile" class="control-label" style="color: #ffffff;">Image</label>
+                                    <input asp-for="imageFile" type="file" class="form-control" />
+                                    <span asp-validation-for="imageFile" class="text-danger"></span>
+                                </div>
+
                                 <div class="form-group">
                                     <input type="submit" value="Create" class="cmn-btn" />
                                 </div>

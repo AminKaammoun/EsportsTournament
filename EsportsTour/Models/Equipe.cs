@@ -11,6 +11,8 @@ public partial class Equipe
 
     public string NomEquipe { get; set; } = null!;
 
+    public string image { get; set; }
+
     public virtual ICollection<Joueur> Joueurs { get; set; } = new List<Joueur>();
 
     public virtual ICollection<Resultat> ResultatEquipeGagnantes { get; set; } = new List<Resultat>();
