@@ -13,7 +13,6 @@ namespace EsportsTour.Data
         }
         public virtual DbSet<Equipe> Equipes { get; set; }
 
-        
         public virtual DbSet<Joueur> Joueurs { get; set; }
 
         public virtual DbSet<Resultat> Resultats { get; set; }

@@ -106,7 +106,13 @@ namespace Projet.Net.Controllers
             {
                 return NotFound();
             }
-            return View(equipe);
+            var equipeViewModel = new EquipeViewModel
+            {
+                Id = equipe.Id,
+                NomEquipe = equipe.NomEquipe,
+                // Map other properties as needed
+            };
+            return View(equipeViewModel);
         }
 
         // POST: Equipes/Edit/5
@@ -115,7 +121,7 @@ namespace Projet.Net.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,NomEquipe")] Equipe equipe)
+        public async Task<IActionResult> Edit(int id, [Bind("Id, NomEquipe", "imageFile")] EquipeViewModel equipe)
         {
             if (id != equipe.Id)
             {
@@ -126,10 +132,35 @@ namespace Projet.Net.Controllers
             {
                 try
                 {
-                   
-                    _context.Update(equipe);
-                   
+                    var existingEquipe = await _context.Equipes.FindAsync(id);
+
+                    if (existingEquipe == null)
+                    {
+                        return NotFound();
+                    }
+
+                    if (_context.Equipes.Any(e => e.NomEquipe == equipe.NomEquipe && e.Id != id))
+                    {
+                        ModelState.AddModelError("NomEquipe", "Team with this name already exists.");
+                        return View(equipe);
+                    }
+
+                    existingEquipe.NomEquipe = equipe.NomEquipe;
+
+                    if (equipe.imageFile != null)
+                    {
+                        string uploadFolder = Path.Combine(hostEnvironment.WebRootPath, "img");
+                        string filename = Guid.NewGuid().ToString() + "_" + equipe.imageFile.FileName;
+                        string filePath = Path.Combine(uploadFolder, filename);
+                        equipe.imageFile.CopyTo(new FileStream(filePath, FileMode.Create));
+
+                        existingEquipe.image = filename;
+                    }
+
+                    // Save changes to the database
                     await _context.SaveChangesAsync();
+
+                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -142,10 +173,12 @@ namespace Projet.Net.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
             }
+
             return View(equipe);
         }
+
+
 
         // GET: Equipes/Delete/5
         [Authorize(Roles = "Admin")]

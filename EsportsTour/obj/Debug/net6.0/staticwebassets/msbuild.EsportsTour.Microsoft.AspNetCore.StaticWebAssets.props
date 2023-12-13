@@ -3376,6 +3376,70 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\2b108f1f-8ab9-4e59-8487-95f53532fe2b_Cloud_9_logo_PNG3.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\7b2d7881-708e-40fd-96c9-a2dad821e099_valorant-logo-FAB2CA0E55-seeklogo.com.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>EsportsTour</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EsportsTour</BasePath>
+      <RelativePath>img/7b2d7881-708e-40fd-96c9-a2dad821e099_valorant-logo-FAB2CA0E55-seeklogo.com.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\7b2d7881-708e-40fd-96c9-a2dad821e099_valorant-logo-FAB2CA0E55-seeklogo.com.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\83a6d554-6568-46d8-9475-0d523413a531_valorant-logo-FAB2CA0E55-seeklogo.com.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>EsportsTour</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EsportsTour</BasePath>
+      <RelativePath>img/83a6d554-6568-46d8-9475-0d523413a531_valorant-logo-FAB2CA0E55-seeklogo.com.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\83a6d554-6568-46d8-9475-0d523413a531_valorant-logo-FAB2CA0E55-seeklogo.com.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\9202693f-6b36-4ff3-8a38-b93aaf3c44d4_valorant-logo-FAB2CA0E55-seeklogo.com.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>EsportsTour</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EsportsTour</BasePath>
+      <RelativePath>img/9202693f-6b36-4ff3-8a38-b93aaf3c44d4_valorant-logo-FAB2CA0E55-seeklogo.com.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\9202693f-6b36-4ff3-8a38-b93aaf3c44d4_valorant-logo-FAB2CA0E55-seeklogo.com.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\a709ad84-cc59-45ef-87f8-cb85da74f471_valorant-logo-FAB2CA0E55-seeklogo.com.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>EsportsTour</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EsportsTour</BasePath>
+      <RelativePath>img/a709ad84-cc59-45ef-87f8-cb85da74f471_valorant-logo-FAB2CA0E55-seeklogo.com.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\a709ad84-cc59-45ef-87f8-cb85da74f471_valorant-logo-FAB2CA0E55-seeklogo.com.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b647f53e-d952-4e21-bb58-5a719267f2e8_fnatic.png))">
       <SourceType>Package</SourceType>
       <SourceId>EsportsTour</SourceId>
